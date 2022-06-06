@@ -2,8 +2,8 @@
 <ul class="estudantes">
   <li *ngFor="let estudante of estudantes">
     <button [class.selected]="estudante === selectedEstudante" type="button" (click)="onSelect(estudante)">     
-      <span class="badge">{{estudante.id}}</span>
-      <span class="nome">{{estudante.nome}}</span>
+      <span class="badge">{{estudante.codigo}}</span>
+      <span class="nome">{{estudante.Nome}}</span>
     </button>
   </li>
 </ul>

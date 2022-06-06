@@ -1,9 +1,8 @@
 export interface Estudante {
-  matricula: number;
-  nome: string;
-  semestre: number;
-  materia: string;
-  notas: number;
-  id : number;
+  ra: number;
+  Nome: string;
+  Curso: string;
+  Email: string;
+  codigo : number;
   
 }

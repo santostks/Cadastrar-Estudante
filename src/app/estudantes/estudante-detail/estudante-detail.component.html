@@ -1,21 +1,21 @@
 <div *ngIf="estudante">
-  <h2>{{estudante.nome | uppercase}} Details</h2>
-  <div>id: {{estudante.id}}</div>
+  <h2>{{estudante.Nome | uppercase}} Details</h2>
+  <div>id: {{estudante.codigo}}</div>
   <div class="container">
     <label for="estudante-nome">Nome: </label>
-    <input id="estudante-nome" [(ngModel)]="estudante.nome" placeholder="nome">
+    <input id="estudante-nome" [(ngModel)]="estudante.Nome" placeholder="Nome">
     
-    <label for="estudante-matricula">Matricula: </label>
-    <input id="estudante-matricula" [(ngModel)]="estudante.matricula" placeholder="Matricula">
+    <label for="estudante-ra">RA: </label>
+    <input id="estudante-ra" [(ngModel)]="estudante.ra" placeholder="RA">
   
-    <label for="estudante-materia">Matéria: </label>
-    <input id="estudante-materia" [(ngModel)]="estudante.materia" placeholder="matéria">
+    <label for="estudante-curso">Curso: </label>
+    <input id="estudante-curso" [(ngModel)]="estudante.Curso" placeholder="Curso">
     
-    <label for="estudante-notas">Notas: </label>
-    <input id="estudante-notas" [(ngModel)]="estudante.notas" placeholder="notas">
+    <label for="estudante-codigo">Código </label>
+    <input id="estudante-codigo" [(ngModel)]="estudante.codigo" placeholder="Código">
     
-    <label for="estudante-semestre">Semestre: </label>
-    <input id="estudante-semestre" [(ngModel)]="estudante.semestre" placeholder="semestre">
+    <label for="estudante-email">Email: </label>
+    <input id="estudante-email" [(ngModel)]="estudante.Email" placeholder="Email">
     
    
   </div>
